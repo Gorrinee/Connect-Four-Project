@@ -15,14 +15,16 @@ This Python project immitates the "connect four" game on the computer. There are
 There are 4 files in this project, each creating a different part of the game. The first one creates a board for the game, the second one creates a player, so that you could make your move. Third one, the "Game" itself, immitates the process of taking turns to play the game, and the last one creates an AI player, that makes a move consciencly, predicting other player's move. The algorithm of this AI player is based on recursion and searching for the best move with the highest "score" of winning. 
 
 ## Screenshots
-Here is an example of a situation where AI Players wins:
 ![Example screenshot](ConnectFourExample.png)
+
+An example of a situation where AI Players wins:
+
 
 ## Technologies
 * Python - version 3.6.2
 
 ## Setup
-Run Midule from the last file - AIPlayer and enter one of the modes, as shown in Code Examples further below. 
+Run Module from the last file - *AIPlayer* and enter one of the modes, as shown in Code Examples further below. 
 
 ## Code Examples
 Here are some examples of how one can start a game in Python Shell:
