@@ -15,35 +15,36 @@ This Python project immitates the "connect four" game on the computer. There are
 There are 4 files in this project, each creating a different part of the game. The first one creates a board for the game, the second one creates a player, so that you could make your move. Third one, the "Game" itself, immitates the process of taking turns to play the game, and the last one creates an AI player, that makes a move consciencly, predicting other player's move. The algorithm of this AI player is based on recursion and searching for the best move with the highest "score" of winning. 
 
 ## Screenshots
+Here is an example of a situation where AI Players wins:
 ![Example screenshot](ConnectFourExample.png)
 
 ## Technologies
-* Tech 1 - version 1.0
-* Tech 2 - version 2.0
-* Tech 3 - version 3.0
+* Python - version 3.6.2
 
 ## Setup
-Describe how to install / setup your local environement / add link to demo version.
+Run Midule from the last file - AIPlayer and enter one of the modes, as shown in Code Examples further below. 
 
 ## Code Examples
-Show examples of usage:
-`put-your-code-here`
+Here are some examples of how one can start a game in Python Shell:
+
+* Player vs Player mode 
+`connect_four(Player('X'), Player('O'))`
+* Player vs Random Computer 
+`connect_four(Player('X'), RandomPlayer('O'))`
+* Player vs AI Player
+`connect_four(Player('X'), AIPlayer('O', 'RANDOM', 5))`
+where the second parameter of the AI Players indicates how it makes a decision when the odds of winning is the same for 2 columns (choices are: 'RANDOM', 'RIGHT', 'LEFT') and the third parameter is the number of moves it thinks ahead
 
 ## Features
-List of features ready and TODOs for future development
-* Awesome feature 1
-* Awesome feature 2
-* Awesome feature 3
+* Player vs Player mode 
+* Player vs Random Player 
+* Player vs AI Player
 
 To-do list:
-* Wow improvement to be done 1
-* Wow improvement to be done 2
+* Create a more user friendly way of playing without using Python Shell for the game. 
 
 ## Status
-Project is: _finished_, 
-
-## Inspiration
-Add here credits. Project inspired by..., based on...
+Project is: _finished_
 
 ## Contact
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
+Created by [@Gorrinee] - feel free to contact me!
