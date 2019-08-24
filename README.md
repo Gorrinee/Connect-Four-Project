@@ -15,7 +15,7 @@ This Python project immitates the "connect four" game on the computer. There are
 There are 4 files in this project, each creating a different part of the game. The first one creates a board for the game, the second one creates a player, so that you could make your move. Third one, the "Game" itself, immitates the process of taking turns to play the game, and the last one creates an AI player, that makes a move consciencly, predicting other player's move. The algorithm of this AI player is based on recursion and searching for the best move with the highest "score" of winning. 
 
 ## Screenshots
-![Example screenshot](.ConnectFourExample.png)
+![Example screenshot](ConnectFourExample.png)
 
 ## Technologies
 * Tech 1 - version 1.0
