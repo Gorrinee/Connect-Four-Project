@@ -1,6 +1,6 @@
 # Connect Four Project
 > This Python project imitates the "connect four" board game. 
-  There are 3 different set ups for this game, so you can chose to play against a friend (player vs player mode), against a computer that   makes random choices or against a computer with an AI algorithm. 
+  There are 3 different setups for this game, so you can choose to play against a friend (player vs player mode), against a computer that   makes random choices or against a computer with an AI algorithm. 
 
 ## Table of contents
 * [General info](#general-info)
